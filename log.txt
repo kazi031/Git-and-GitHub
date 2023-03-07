@@ -1,0 +1,14 @@
+>> notepad list.txt
+edit something in list.txt then save and close
+
+>> git diff
+this will tell us what we edited in the file
+will show different versions of the file
+>> git add list.txt
+>>git status
+>>git commit -m "Add fruits and vegetables"
+>> git log
+
+
+>> git log -1 
+will give us the most recent commit

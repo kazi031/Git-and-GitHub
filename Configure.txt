@@ -1,0 +1,13 @@
+git config --global user.name "Kazi Rafid Raiyan"
+
+git config --global user.email "kazirafidraiyan031@gmail.com"
+
+favourite text editor :
+
+git config --global core.editor "Code Writer"
+
+create a file :
+
+touch test.txt
+
+git config --list

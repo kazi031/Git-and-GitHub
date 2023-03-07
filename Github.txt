@@ -1,0 +1,19 @@
+
+>> cd UCL
+>> git remote add origin https://github.com/kazi031/Git_Practice.git
+>> git remote -v (Show from which address we can fetch data or push into)
+
+** We can push our remote repository which we were working on into remote repository.
+
+>> git push origin master
+
+>> pwd(show the whole directory)
+
+-------------------------------------------------------------------------------------------
+**How to download a gitrepository in local machine?
+
+>> mkdir new_dir
+>> cd new_dir
+>> git clone https://github.com/zotroneneis/machine_learning_basics.git
+
+>> git fetch and git pull(self-study)

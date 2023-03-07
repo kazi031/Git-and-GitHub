@@ -1,0 +1,18 @@
+>> git branch RM
+
+>> git branch (to check in which branch i am right now)
+
+>> git branch BAY
+
+>> git branch BAR
+
+>> git branch CHEL
+
+>> git checkout RM
+
+** delete a branch 
+>> git branch -d branch_name
+
+**merge one brach with another
+
+>> git merge RM

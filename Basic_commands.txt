@@ -1,0 +1,43 @@
+Step 1 > Creating a directory
+
+mkdir shop 
+
+c (to get into the directory)
+
+Step 2 > we wanted to track this directory
+
+git init (initialized empty git repository)
+
+Now we will be albe to track the files or track the changes we make to files in this directory.
+
+if we want to show the files in the repository :
+
+ls(show the files in the directory)
+
+ls -A(will show dir)
+
+cd .git
+
+ls -A
+
+cd ..(move out of the dir)
+
+touch lists.txt
+rm lists.txt
+touch list.txt
+
+ls
+clear
+
+git status
+git is still not tracking the file we created(list.txt)
+ 
+
+Step 3 > The add command tells git to start tracking a particular file
+
+git add list.txt
+git status
+git commit -m "Create Shopping list"
+git status
+git log(history so far of commits for this file)
+

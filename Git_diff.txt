@@ -1,0 +1,31 @@
+>> notepad list.txt
+
+>> git add list.txt
+
+>> git diff (here this command will not give any output because after git add this is the latest output)
+
+>> git diff --staged (this will give the difference between this file and previous staged file)
+
+difference between different vesions of commited file >>
+
+* every commit has a unique commit id >> like >> e2fbkjacascdvv.......
+
+>> git diff e2fbkjac(first 8 letters) list.txt (gives us the what we add form that commit to the present commit)
+
+----------------------------------------HEAD--------------------------------------------------
+
+every commit was one time a head. 
+Most recent commit is head -> master or only head
+the previous commit was Head~1
+the one before that is Head~2 going on.
+>> if we want to go back to a cetain commit
+
+----------------------------------------Check-out--------------------------------------------
+* to visit earlier version of commit checkout command is used.
+>> git cheackout HEAD~n list.txt
+>> notepad list.txt
+
+to comeback to the recent file
+>> git checkout Head list.txt
+>> notepad list.txt
+	

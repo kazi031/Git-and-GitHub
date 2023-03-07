@@ -1,0 +1,13 @@
+*Suppose we wrote something wrong in the file and then used the git command
+>> git add ucl_2012.txt
+*by this way we staged the file to unstage it we have to write the command
+>> git reset ucl_2012.txt
+
+*What if instead of staging them we committed them then we realise we made a mistake.
+ >> git log
+ >> git reset HEAD~1 --soft 
+** this command gets me to the previous commit and the file is staged for commit.
+ >> git reset HEAD~1 --mixed
+** this command gets me to the previous commit and the file is unstaged for commit.
+ >> git reset HEAD~1 --hard
+** completely removes the latest commit and goes back to the previous commit.
